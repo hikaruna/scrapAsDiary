@@ -33,4 +33,4 @@ const getLargestImageUrl = (document) => {
   return /** @type {string} */ (largestImgTag.getAttribute('src'));
 };
 
-export scrapAsDiary as default;
+export default scrapAsDiary;
